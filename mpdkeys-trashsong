@@ -1,0 +1,6 @@
+#!/bin/bash
+# Localization to MPDKeys lib folder
+export PERLLIB="./lib"
+
+exec -- perl -- \
+  "$PERLLIB/../bin/mpdkeys-trashsong" "$@"

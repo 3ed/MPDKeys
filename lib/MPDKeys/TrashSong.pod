@@ -1,0 +1,71 @@
+=begin man
+
+=head1 NAME
+
+MPDKeys::TrashSong - easy to use "move song to trash" for Music Player Daemon
+
+=head1 EXAMPLE
+
+use MPDKeys::TrashSong;
+my $ts = MPDKeys::TrashSong->new('--host' => '127.0.0.1:6600');
+$ts->trash_song;
+
+=head1 METHODS
+
+=over
+
+=item $ts->new()
+
+=back
+
+=over
+
+=item $ts->init()
+
+=back
+
+=over
+
+=item $ts->trash_song()
+
+=back
+
+=over
+
+=item $ts->move_song_to_trash()
+
+=back
+
+=over
+
+=item $ts->mpd_update_mpd_path()
+
+=back
+
+=over
+
+=item $ts->get_mpd_song_info()
+
+=back
+
+=over
+
+=item $ts->get_music_dir()
+
+=back
+
+=head1 SEE ALSO
+
+.BR mpdkeys-trashsong (1),
+.BR MPD::Keys::TrashSong (3),
+.BR MPD::Keys::TrashSong::cli (3)
+
+=head1 LICENSE AND AUTHOR
+
+See:
+.BR mpdkeys-trashsong(1)
+
+=cut
+
+=end    man
+

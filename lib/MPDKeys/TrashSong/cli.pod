@@ -1,0 +1,39 @@
+=begin  man 
+
+=encoding utf8
+
+=head1 NAME
+
+MPDKeys::TrashSong::cli - Command Line User Interface for MPDKeys::TrashSong
+
+=head1 EXAMPLE
+
+use MPDKeys::TrashSong::cli;
+
+MPDKeys::TrashSong::cli->new(@ARGV)->run;
+
+=head1 METHODS
+
+=over
+
+=item $obj->run()
+
+User interface for MPD::Keys::TrashSong
+
+=back
+
+=head1 SEE ALSO
+
+.BR mpdkeys-trashsong (1),
+.BR MPD::Keys::TrashSong (3),
+.BR MPD::Keys::TrashSong::cli (3)
+
+=head1 LICENSE AND AUTHOR
+
+See:
+.BR mpdkeys-trashsong(1)
+
+=cut
+
+=end    man
+

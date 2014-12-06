@@ -1,0 +1,74 @@
+=begin man
+
+=encoding utf8
+
+=cut
+
+=head1 NAME
+
+mpdkeys-trashsong - move song to trash
+
+=head1 SYNOPSIS
+
+mpd-trash-song [OPTIONS]
+
+=head1 DESCRIPTION
+
+Simply cli/gtk3 user interface to move currently listening song into trash, eg. by pressing shortcut.
+
+=head1 OPTIONS
+
+=over
+
+=item -h=<connect_to> | --host=<connect_to>
+
+password@host:port - all options are optional
+
+=back
+
+=over
+
+=item -c=<config_file> | --config=<config_file>
+
+read this mpd config file to determine music_dir (default: /etc/mpd.conf)
+
+=back
+
+=over
+
+=item -d=<music_dir> | --music_dir=<music_dir>
+
+this is directory with music (without read config_file)
+
+=back
+
+=over
+
+=item -p=<mpd_path> | --mpd_path=<mpd_path>
+
+mpd path to file (not filesystem path) or currently played song if empty
+
+=back
+
+=head1 VERSION
+
+This is version 0.1
+
+=head1 AUTHORS
+
+3ED (c) 2014 <krzysztof1987@gmail.com>
+
+=head1 COPYRIGHT
+
+.PP
+This program is distributed under the terms of Clarified Artistic License and GNU Public License 2.0. For more details, see the full text of the licenses:
+  - Clarified Artistic: http://www.ncftp.com/ncftp/doc/LICENSE.txt
+  - GPL2: http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+.fi
+.PP
+This program is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.
+.fi
+
+=cut
+
+=end man
