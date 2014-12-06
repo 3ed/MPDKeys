@@ -20,7 +20,7 @@ Using gettext, modern good looking gnome3 windows with headerbar.
   - Gtk3: bin/mpdkeys-trashsong-gui (use MPDKeys::TrashSong::Gtk3 with inheritance to MPDKeys::TrashSong)
   - cli: bin/mpdkeys-trashsong (use MPDKeys::TrashSong::cli with inheritance to MPDKeys::TrashSong)
 
-## Done but not ready but simple not merged
+## Done but not ready or simple, not merged
 - MPDKeys::DO - notifications for key actions like: next, back, seek
 
 ## Any suggestions?
