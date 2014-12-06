@@ -24,4 +24,4 @@ Using gettext, modern good looking gnome3 windows with headerbar.
 - MPDKeys::DO - notifications for key actions like: next, back, seek
 
 ## Any suggestions?
-- Maybe there is something that I will like, but your idea, not main.
+- Maybe there is something that I will like, but your ideas, not only my.
